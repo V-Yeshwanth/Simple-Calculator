@@ -1,5 +1,19 @@
 body{
-    background-color: orange;
+    background-color: dodgerblue;
+}
+#heading{
+    display: grid;
+    justify-content: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.2rem;
+}
+#heading .underline{
+    height: 10px;
+    margin-top: -30px;
+    border-radius: 5px;
+    width: 60%;
+    background-color: #FC8404;
 }
 #upper-calc{
     border-radius: 6px;
@@ -12,7 +26,7 @@ body{
 #calc{
     position: absolute;
     left: 50%;
-    top: 100px;
+    top: 170px;
     transform: translateX(-50%);
 }
 #input-text{
